@@ -1,0 +1,247 @@
+.nav-item{
+	background-color:transparent;
+}
+div.slicky1.slick-initialized.slick-slider>button.slick-prev.slick-arrow{
+	left:30%!important;
+}
+div.slicky1.slick-initialized.slick-slider>button.slick-next.slick-arrow{
+	right:64%!important;
+}
+div.slicky0.slick-initialized.slick-slider>button.slick-next.slick-arrow{
+	background-color:black!important;
+	top:50%!important;
+}
+div.slicky0.slick-initialized.slick-slider>button.slick-prev.slick-arrow{
+	background-color:black!important;
+	top:50%!important;
+	left:5%!important;
+	z-index:1;
+}
+a{
+	
+    color: white;
+    text-decoration: none;
+    background-color: transparent;
+}
+.boton{
+	box-shadow:none;
+	color:white;
+	background-color:#0033ff;
+	height:40px;
+	width:40px;
+	border-radius:50%;
+}
+
+a:hover{
+	color:white;
+	text-decoration:none;
+	
+}.cud:hover{
+		opacity:.7;
+}
+
+.cud{
+	color:white;
+	background-color:#0099ff;
+	height:100%;
+	width:100%;
+	vertical-align:center;
+	opacity:0;
+	-webkit-transition: .2s;
+	transition: opacity .2s;
+		/* box-shadow:5px 5px #cccccc; */
+}
+.cupd:hover{
+		opacity:.7;
+}
+
+.cupd{
+color:white;
+	background-color:#0099ff;
+	height:100%;
+	width:100%;
+	opacity:0;
+	-webkit-transition: .2s;
+	transition: opacity .2s;
+		/* box-shadow:5px 5px #cccccc; */
+}
+.cupp:hover{
+		opacity:.7;
+}
+.cupp{
+	color:white;
+	background-color:#0099ff;
+	height:100%;
+	width:100%;
+	vertical-align:center;
+	opacity:0;
+	-webkit-transition: .2s;
+	transition: opacity .2s;
+	/* box-shadow:5px 5px #cccccc; */
+}
+
+ .cup{
+	color:white;
+	background-color:#0099ff;
+	height:100%;
+	width:100%;
+	vertical-align:center;
+	opacity:0;
+	-webkit-transition: .2s;
+	transition: opacity .2s;
+		/* box-shadow:5px 5px #cccccc; */
+}
+ .cup:hover{
+	opacity:.7;
+}
+#mbido{
+	/* background-image:url('img/action.jpg'); */
+	background-image:url('../img/tattoo.jpg');
+	background-repeat:no-repeat;
+	background-size:100%;
+	height:inherit;
+}
+#bac{
+	margin-right:280px;
+}
+.carousel-inner b{
+	font-size:60px;
+}
+.best_offer{
+	min-height:375px;
+	background-repeat:no-repeat; 
+	background-size: cover; 
+	background-position:center;
+}
+select{
+	border:0px!important;
+}
+.visitors{
+	text-align:justify;
+	color:white;
+	background-repeat:no-repeat; 
+	background-size: cover; 
+	background-position:center;
+}
+.col-md-3{
+	margin:auto;
+}
+.overlay {
+	opacity:0.7;
+    height: 100%;
+    /* width: 0; */
+    /* position: fixed; */
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0, 0.9);
+    overflow-x: hidden;
+    transition: 0.5s;
+}
+.best{
+	background-color:#0099ff;
+	opacity:.8;
+}
+.nav{
+	margin:0;
+	padding:0;
+}
+li:hover{
+	border-bottom:3px white solid;
+}
+.plane{
+	border-right:1px silver solid;
+	min-width:90px;
+	min-height:50px;
+}
+.hotels{
+	width:80%;
+	height:500px;
+}
+.plan{
+	background-color:#0066ff;
+	text-align:center;
+	padding:20px;
+
+}
+.carousel-indicators{
+	position:relative;
+	margin-top:104px;
+}
+.slick-next{
+	/* font-size:30px!important; */
+	background-color:blue!important;
+	right:8%!important;
+	width:30px!important;
+	top:104%!important;
+	height:30px!important;
+	border-radius:50%!important;
+}
+.slick-prev{
+	height:30px!important;
+	border-radius:50%!important;
+	top:104%!important;
+	background-color:blue!important;
+	width:30px!important;
+	left:86%!important;
+	/* font-size:30px!important; */
+}
+
+.cutt a:hover{
+	text-decoration:none;
+}
+.col-md-3{
+	margin:0px 20px;
+}
+.card{
+	box-shadow:0px 1px 20px 6px #cccccc!important;
+}
+
+.carousel-control-next, .carousel-control-prev{
+	justify-content:left;
+}
+.cutt{
+	padding:0px;
+    background-position: center;
+	box-shadow: 0 0 3px 9px #0000001f;
+	min-height:400px;
+	min-width:300px;
+		margin-top:5px;
+}
+.sp{
+	padding:5px 15px 5px 15px;
+	border:2px solid black;
+}
+.card-body a{ 
+	color:black;
+}
+.card-body a:hover{
+		color:black;
+		text-decoration:none;
+}
+@media (max-width:500px){
+	
+	.place_info{
+		margin-left:0px;
+	}
+}
+
+
+@media (max-width: 800px){
+	.place_info{
+		margin-left:0px;
+	}
+	.container{
+		padding-left:0px;
+		padding-right:0px;
+		width:100%;
+	}
+	.place_video{
+		width:100%;
+	}
+}
+.place_video{
+	border:1px solid #cccccc;
+	width:100%;
+}

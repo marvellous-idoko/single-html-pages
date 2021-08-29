@@ -1,0 +1,30 @@
+.dads{
+	border-radius:80%;
+	background-color:#adad33;
+}
+.wema{
+	border-radius:80%;
+	background-color:#adad33;
+}
+.contain::after{
+	margin-left:-40px;
+	padding-top:-410px;
+	position:absolute;
+	content:"";
+	width:0px;
+	height:0px;
+	border:40px solid;
+	border-color:black transparent transparent transparent;
+	color:black;
+}
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+}
+.fa-facebook,.fa-twitter {
+    background: #3B5998;
+    color: white;
+}

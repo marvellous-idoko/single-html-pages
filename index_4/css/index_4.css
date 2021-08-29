@@ -1,0 +1,135 @@
+body{
+	color:white;
+	padding:0px;
+	margin:0px;
+	
+
+}
+a:hover{
+	color:inherit;
+	text-decoration:none;
+}
+.ic{
+	margin-top:15%;	
+	font-size:20px;
+	
+}
+
+#spa{
+	/* background-color:#e0e; */
+	/* transition: background-color 2.2s ease-out; */
+	/* transition-timing-function: linear; */
+	transition:5s all;
+}
+#na{background-color:#bb1;
+	/* transition: background-color 2.2s ease-out; */
+	/* transition:5s all;	 */
+}
+#navi{background-color:#eff000;
+	/* transition: background-color 2.2s ease-out; */
+	/* transition:5s all; */
+}
+
+.slick-prev {
+    left: 5px!important;
+	z-index: 1!important;
+}
+.slick-next {
+    right: 5px!important;
+    z-index: 1!important;
+}
+.slick-prev:before, .slick-next:before {
+	font-size:30px!important;
+	color:#000000!important;
+}
+
+.slick-initialized .slick-slide{
+	width:0.4%!important;
+}
+.ics{
+
+	margin:10px;
+	min-width:30px;
+	min-height:30px;
+	border-radius:50%;
+	float:left;
+	text-align:center;
+    background-color: #ccc;
+}
+.row{
+	margin:auto!important;
+	/* margin:0px!important; */
+}
+.media-body,.card-text{
+	    font-size: 15px!important;
+}
+.col-md-6{
+	padding:0px!important;
+}
+.navbar{
+	padding:0px!important;
+}
+.cl{
+	padding:10px 2.566% ;
+}
+.cl:hover{
+	background-color: #ff3300;
+}
+.isi{
+	position:relative;
+}
+.col-md-auto{
+	max-width:222px!important;
+	min-width:222px!important;
+}
+
+.items{
+	z-index:1;
+	top:-30%;
+	text-align:center;
+	position:absolute;
+	width:100%;
+	background-color:#FF8C32;
+}
+.row a{
+	color:black;
+	text-decoration:none;
+}
+a,.tupu-mbido i{
+	text-decoration:none;
+	color:white;
+}
+#wr{
+	clear:both;
+	padding-top:100px!important;
+	padding-bottom:100px!important;
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-image:url('../img/wristwatch.jpg');
+	background-position:center;	
+}
+.time{
+	background-color:#ccc;
+	padding:5px;
+	margin:5px;
+}
+ul.nav.nav-tabs a{
+	color:black;
+}
+.rr{
+	max-height:100px;
+	min-height:100px;
+	min-width:100px;
+	max-width:100px;
+	
+}
+.rer{
+	min-width: -webkit-fill-available;
+    max-width: -webkit-fill-available;
+    max-height: 250px;
+    min-height: 250px;
+}
+.rere{
+	width:286px;
+	height:250px;
+}

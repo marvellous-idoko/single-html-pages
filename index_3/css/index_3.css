@@ -1,0 +1,156 @@
+body{
+	font-family: Oxygen, sans-serif;
+	color:white;
+	margin:0px;
+	padding:0px;
+	font-weight:600!important;
+}
+.slid>div{
+	bottom:8px;
+}
+#exhibit{
+	min-height:500px;
+	width:90%;
+	position:relative!important;
+	clear:both;
+}
+	
+}
+#mbido{
+	/* background-image:url('../img/submarine.jpg'); */
+	background-repeat:no-repeat; 
+	background-size: cover;
+	margin:0px;
+	padding:0px;
+}
+.exhibit_info{
+	position:absolute;
+	height:200px;
+	width:50%!important;
+}
+#slicky0{
+	width:100%;
+	min-height:500px;
+	position:absolute!important;
+}
+#robot{
+		background-repeat:no-repeat;
+		background-size:cover;
+		background-image:url('../img/robot.jpg');
+		background-position:center;	
+	
+}
+#slicky1{
+	background-color:black;
+	position:absolute!important;
+	max-width:45%;
+	bottom:0;
+	right:0;
+	max-height:60%;
+}
+.ic{
+	margin-top:15px;
+	font-size:25px;
+	
+}
+.ics{
+	margin:10px;
+	min-width:50px;
+	min-height:50px;
+	border-radius:50%;
+	float:right;
+	text-align:center;
+    background-color: #00004E;
+}
+.rn{
+	padding:10px;
+	background-color:#66ccff;
+}
+.rn:hover{
+	color:#66ccff;
+	background-color:white;
+}
+.rn>a:hover{
+	color:#66ccff;
+	text-decoration:none;
+}
+.rn > a{
+	color:white;
+	text-decoration:none;
+}
+.exhibit_pic{
+	color:white;
+	background-repeat:no-repeat;
+	background-size:cover;
+	height:500px;
+	background-position:center;	
+}
+.slick-track{
+	padding:0px!important;
+	margin:0px!important;
+}
+a{
+	color:white;
+}
+a:hover{
+	color:lightblue;
+	text-decoration:none;
+	
+}
+#share{
+	position:absolute;
+	z-index:1;
+	top: 26%;
+	margin-right:5%;
+	right:0px;
+}
+
+.overlay {
+	opacity:0.7;
+    height: 100%;
+    /* width: 0; */
+    /* position: fixed; */
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0, 4.9);
+    overflow-x: hidden;
+    transition: 0.5s;
+}
+ul.nav,span.nav,.arin{
+	margin-left:10%;
+	margin-right:10%;
+	clear:both;
+}
+
+.slid{
+	
+	min-height:800px;
+	background-repeat:no-repeat; 
+	background-size: cover; 
+	background-position:center;
+}
+.slidi{
+	top:0px;
+position:absolute!important;
+	top:30%;
+	margin-left:1%;
+	
+}
+
+#left{
+	margin-top:10%;
+	float:left;
+	width:60%;
+}
+#right{
+	background-image:url('../img/bg-img.jpg');
+	color:white;
+	background-repeat:no-repeat;
+	background-size:cover;
+	height:400px;
+	background-position:center;
+	width:40%;
+	float:left;
+}
